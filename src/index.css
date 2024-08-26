@@ -1,0 +1,42 @@
+:root {
+    --bg-black-color: #000;
+    --bg-red-color: rgb(231, 15, 15);
+    --text-white-color: #fff;
+    --bg-red-color-hover: rgb(202, 11, 11);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.navbar-logo {
+    color: var(--bg-black-color);
+}
+
+.navbar-menu a{
+    padding: 0 15px;
+    color: var(--bg-black-color);
+    font-weight: 600;
+}
+
+.navbar-btn {
+    background-color: var(--bg-red-color);
+    padding: 7px 15px;
+    color: var(--text-white-color);
+    font-size: 13px;
+    border: none;
+}
+.navbar-btn:hover {
+    background-color: var(--bg-red-color-hover);
+}
