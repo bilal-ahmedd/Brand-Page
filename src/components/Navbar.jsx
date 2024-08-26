@@ -14,10 +14,10 @@ const Navbar = () => {
                         <span className=""></span>
                     </a>
                     <nav className="navbar-menu">
-                        <a className="">Menu </a>
-                        <a className="">Location</a>
-                        <a className="">About</a>
-                        <a className="">Contact</a>
+                        <a className=""> Menu </a>
+                        <a className=""> Location </a>
+                        <a className=""> About </a>
+                        <a className=""> Contact </a>
                     </nav>
                     <button className="navbar-btn">Login</button>
                 </div>
