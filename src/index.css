@@ -37,6 +37,63 @@ body {
     font-size: 13px;
     border: none;
 }
-.navbar-btn:hover {
+
+
+.navbar-btn:hover,
+.hero-btn button:nth-child(1):hover {
     background-color: var(--bg-red-color-hover);
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+
+.hero-content {
+    padding: 10px 30px 0 0;
+}
+
+.hero-content h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 17px;
+}
+
+.hero-btn {
+    padding: 15px 0 25px 0;
+}
+
+.hero-btn button:nth-child(1) {
+    border: none;
+    padding: 10px 25px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.hero-btn button:nth-child(2) {
+    border: 1px solid #000;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: #000;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.hero-brand-logo {
+    padding: 10px 0;
+}
+.hero-brand-logo img {
+    margin-right: 20px;
+}
+
+.hero-btn button:nth-child(2):hover {
+    background-color: red;
+    color: #fff;
+    border: none;
 }
