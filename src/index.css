@@ -52,6 +52,7 @@ body {
 
 .hero-content {
     padding: 10px 30px 0 0;
+    width: 60%;
 }
 
 .hero-content h1 {
@@ -87,6 +88,7 @@ body {
 
 .hero-brand-logo {
     padding: 10px 0;
+    width: 40%;
 }
 .hero-brand-logo img {
     margin-right: 20px;
@@ -96,4 +98,104 @@ body {
     background-color: red;
     color: #fff;
     border: none;
+}
+
+
+@media screen and (max-width: 986px) {
+
+    .hero-section {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 65px;
+        font-weight: bold;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar-menu a {
+        padding: 0 4px;
+        font-size: 13px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .hero-brand-logo {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 420px;
+        height: 360px;
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+
+    .navbar-class {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar-menu {
+        padding: 15px 0px;
+    }
+
+    .navbar-menu a {
+        padding: 0 8px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 25px;
+    }
+    .hero-content p {
+        font-size: 13px;
+    }
+
+    .hero-brand-logo {
+        width: 100%;
+        
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 250px;
+    }
+ 
+    .hero-btn {
+        display: flex;
+    }
+    .hero-btn button {
+        font-size: 13px;
+        margin: 7px 0;
+    }
+    .hero-btn button:nth-child(1) {
+        padding: 10px 15px;
+    }
+    .hero-btn button:nth-child(2) {
+        padding: 10px 15px;
+    }
+    
 }
