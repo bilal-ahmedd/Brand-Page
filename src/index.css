@@ -1,18 +1,3 @@
-:root {
-    --bg-black-color: #000;
-    --bg-red-color: rgb(231, 15, 15);
-    --text-white-color: #fff;
-    --bg-red-color-hover: rgb(202, 11, 11);
-}
-
-a {
-    text-decoration: none;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-}
-
 .navbar-class {
     display: flex;
     justify-content: space-between;

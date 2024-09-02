@@ -1,0 +1,15 @@
+:root {
+    --bg-black-color: #000;
+    --bg-red-color: rgb(231, 15, 15);
+    --text-white-color: #fff;
+    --bg-red-color-hover: rgb(202, 11, 11);
+    --bg-green-color: rgb(26, 152, 32);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
